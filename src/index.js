@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Inicio from './Inicio';
+import Nosotros from './nosotros';
+import Servicios from './servicios';
+import Skills from './skills';
+import Portfolio from './portfolio';
+import Contacto from './contacto';
+import Footer from './footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Inicio />
+    <Nosotros/>
+    <Servicios />
+    <Skills />
+    <Portfolio />
+    <Contacto />
+    <Footer />
+    
   </React.StrictMode>
 );
 
