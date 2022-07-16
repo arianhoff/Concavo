@@ -6,54 +6,38 @@ function inicio() {
       <div className="contenido">
         <header>
           <div className="contenido-header">
-            <h1>Arian Hoffmann</h1>
+            <h1>Cóncavo.Design</h1>
             <nav id="nav" className="">
               <ul id="links">
                 <li>
-                  <a
-                    href="#inicio"
-                    className="seleccionado"
-                  >
+                  <a href="#inicio" className="seleccionado">
                     INICIO
                   </a>
                 </li>
                 <li>
-                  <a href="#sobremi">
-                    SOBRE MI
-                  </a>
+                  <a href="#sobremi">NOSOTROS</a>
                 </li>
                 <li>
-                  <a href="#servicios">
-                    SERVICIOS
-                  </a>
+                  <a href="#servicios">SERVICIOS</a>
                 </li>
                 <li>
-                  <a href="#portfolio">
-                    PORTFOLIO
-                  </a>
+                  <a href="#portfolio">PORTFOLIO</a>
                 </li>
                 <li>
-                  <a href="#contacto">
-                    CONTACTO
-                  </a>
+                  <a href="#contacto">CONTACTO</a>
                 </li>
               </ul>
             </nav>
 
-            <div id="icono-nav">
+            {/* <div id="icono-nav">
               <i className="fa-solid fa-bars"></i>
-            </div>
+            </div> */}
 
             <div className="redes">
-              <a
-                href="https://www.linkedin.com/in/arian-hoffmann-726376161/"
-              >
-                <i className="fa-brands fa-linkedin"></i>
-              </a>
-              <a href="https://www.behance.net/arianhoffmann1">
+              <a href="https://www.behance.net/cncavodesign" target="blank">
                 <i className="fa-brands fa-behance-square"></i>
               </a>
-              <a href="https://www.instagram.com/ari.hoffmann/">
+              <a href="https://www.instagram.com/concavodesign/" target="blank">
                 <i className="fa-brands fa-instagram-square"></i>
               </a>
             </div>
@@ -61,10 +45,12 @@ function inicio() {
         </header>
         <div className="presentacion">
           <p className="bienvenidos">Bienvenidos</p>
-          <h2>Soy <span>Arian Hoffmann</span>, Desarrollador Web Full Stack</h2>
+          <h2>
+            Somos <span>Cóncavo.Design</span>, Estudio de diseño gráfico e
+            industrial.
+          </h2>
           <p className="descripcion">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, nobis
-            perspiciatis.
+            Amamos el dieños, por eso potenciamos y compartimos la importancia de trabajar por un propósito.
           </p>
           <a href="#portfolio">Ir a Portfolio</a>
         </div>

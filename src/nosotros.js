@@ -1,6 +1,7 @@
 import React from 'react'
 import Arian from "./assets/arian.jpg"
 import "../src/nosotros.css"
+import Curriculum from "./assets/cv.pdf"
 
 const nosotros = () => {
   return (
@@ -17,7 +18,7 @@ const nosotros = () => {
           voluptatem laboriosam harum exercitationem ex.
         </p>
         <p>Lorem ipsum dolor, sit amet consectetur.</p>
-        <a href='.'>Descargar CV</a>
+        <a href={Curriculum} download>Descargar CV</a>
       </div>
     </div>
   )
