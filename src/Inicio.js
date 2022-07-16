@@ -50,7 +50,7 @@ function inicio() {
             industrial.
           </h2>
           <p className="descripcion">
-            Amamos el dieños, por eso potenciamos y compartimos la importancia de trabajar por un propósito.
+            Amamos el <b>DISEÑO</b>, por eso potenciamos y compartimos la importancia de trabajar por un propósito.
           </p>
           <a href="#portfolio">Ir a Portfolio</a>
         </div>
