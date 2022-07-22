@@ -37,8 +37,8 @@
   #portfolio .fila .proyecto .info {
     position: absolute;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #ff5080;
+    background-color: white;
+    color:#000;
     width: 100%;
     padding: 10px;
     opacity: 0;

@@ -4,18 +4,13 @@ import './footer.css';
 const footer = () => {
   return (
     <div id="footer">
-      <p>Todos los derechos reservados - 2022</p>
+      <p>Cóncavo.Design | Since ©2022 - Todos los derechos reservados.</p>
 
       <div className="redes">
-        <a
-          href="https://www.linkedin.com/in/arian-hoffmann-726376161/"
-        >
-          <i className="fa-brands fa-linkedin"></i>
-        </a>
-        <a href="https://www.behance.net/arianhoffmann1">
+        <a href="https://www.behance.net/cncavodesign" target="blank">
           <i className="fa-brands fa-behance-square"></i>
         </a>
-        <a href="https://www.instagram.com/ari.hoffmann/">
+        <a href="https://www.instagram.com/concavodesign/" target="blank">
           <i className="fa-brands fa-instagram-square"></i>
         </a>
       </div>

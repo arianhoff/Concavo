@@ -29,7 +29,7 @@
     box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
   }
   #servicios .fila .servicio h4 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 25px;
   }
   #servicios .fila .servicio .icono {
@@ -50,7 +50,7 @@
   #servicios .fila .servicio ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 10px;
   }
   #servicios .fila .servicio p {

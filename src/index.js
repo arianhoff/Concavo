@@ -22,6 +22,7 @@ root.render(
     <Portfolio />
     <Contacto />
     <Footer />
+    
   </React.StrictMode>
 );
 

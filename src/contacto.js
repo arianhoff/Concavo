@@ -5,7 +5,7 @@ import "./contacto.css";
 const contacto = () => {
   return (
     <div id="contacto">
-      <h3 className="titulo-seccion">Contáctame ahora</h3>
+      <h3 className="titulo-seccion">Contáctanos</h3>
       <div className="contenedor-form">
         <form
           action="https://formsubmit.co/designconcavo@gmail.com"

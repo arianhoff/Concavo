@@ -1,7 +1,7 @@
 import React from 'react'
 import Concavo from "./assets/concavonosotros.jpg"
 import "../src/nosotros.css"
-import Curriculum from "./assets/cv.pdf"
+import Plan from "./assets/PlanDePrecios.pdf"
 
 const nosotros = () => {
   return (
@@ -14,11 +14,10 @@ const nosotros = () => {
         <h2>Hola, Somos <span>Cóncavo</span></h2>
         <h3>Diseñadores Gráficos | Industriales</h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-          voluptatem laboriosam harum exercitationem ex.
+          
         </p>
         <p>Lorem ipsum dolor, sit amet consectetur.</p>
-        <a href={Curriculum} download>Descargar CV</a>
+        <a href={Plan} download>Descarga nuestros planes</a>
       </div>
     </div>
   )

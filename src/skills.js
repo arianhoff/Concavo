@@ -4,11 +4,11 @@ import "./skills.css"
 const skills = () => {
   return (
     <div className="contenedor-skills" id="skills">
-    <h3>HABILIDADES</h3>
+    <h3>Programas utilizados</h3>
     <div className="skill">
       <div className="info">
-        <p><span className="lista"></span>Html & Css</p>
-        <span className="porecentaje">95%</span>
+        <p><span className="lista"></span>Illustrator</p>
+        <span className="porecentaje"></span>
       </div>
       <div className="barra">
         <div id="html" className="barra-progreso1"></div>
@@ -17,8 +17,8 @@ const skills = () => {
 
     <div className="skill">
       <div className="info">
-        <p><span className="lista"></span>React</p>
-        <span className="porecentaje">85%</span>
+        <p><span className="lista"></span>Photoshop</p>
+        <span className="porecentaje"></span>
       </div>
       <div className="barra">
         <div id="react" className="barra-progreso2"></div>
@@ -27,8 +27,8 @@ const skills = () => {
 
     <div className="skill">
       <div className="info">
-        <p><span className="lista"></span>Javascript</p>
-        <span className="porecentaje">50%</span>
+        <p><span className="lista"></span>Adobe After Effects</p>
+        <span className="porecentaje"></span>
       </div>
       <div className="barra">
         <div id="js" className="barra-progreso3"></div>
@@ -37,8 +37,8 @@ const skills = () => {
 
     <div className="skill">
       <div className="info">
-        <p><span className="lista"></span>Base de datos</p>
-        <span className="porecentaje">75%</span>
+        <p><span className="lista"></span>Solidworks</p>
+        <span className="porecentaje"></span>
       </div>
       <div className="barra">
         <div id="bd" className="barra-progreso4"></div>
@@ -47,15 +47,15 @@ const skills = () => {
 
     <div className="skill">
       <div className="info">
-        <p><span className="lista"></span>Photoshop</p>
-        <span className="porecentaje">95%</span>
+        <p><span className="lista"></span>Keyshot</p>
+        <span className="porecentaje"></span>
       </div>
       <div className="barra">
         <div id="ps" className="barra-progreso5"></div>
       </div>
     </div>
 
-    <div className="skill">
+    {/* <div className="skill">
       <div className="info">
         <p><span className="lista"></span>After Effects</p>
         <span className="porecentaje">80%</span>
@@ -63,7 +63,7 @@ const skills = () => {
       <div className="barra">
         <div id="af" className="barra-progreso6"></div>
       </div>
-    </div>
+    </div> */}
   </div>
   )
 }
