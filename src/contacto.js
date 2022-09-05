@@ -8,7 +8,7 @@ const contacto = () => {
       <h3 className="titulo-seccion">Contáctanos</h3>
       <div className="contenedor-form">
         <form
-          action="https://formsubmit.co/designconcavo@gmail.com"
+          action="https://formsubmit.co/98aafb6cfa6dc2eb5e4463659afe1345"
           method="POST"
         >
           <div className="fila mitad">
