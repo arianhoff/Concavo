@@ -10,6 +10,8 @@ import Contacto from './contacto';
 import Footer from './footer';
 import Boton from './boton';
 import reportWebVitals from './reportWebVitals';
+import Component from './carrusel';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +22,7 @@ root.render(
     <Servicios />
     <Skills />
     <Portfolio />
+    <Component/>
     <Contacto />
     <Footer />
     
