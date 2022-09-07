@@ -51,7 +51,7 @@ export default class Autoplay extends Component {
       ],
     };
     return (
-      <div>
+      <div className="global">
         <h1 style={{ textAlign: "center", marginBottom: 50 }} className="titulo">
           {" "}
           Marcas que confiaron en nosotros{" "}
