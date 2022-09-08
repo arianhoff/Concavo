@@ -9,10 +9,24 @@
   text-decoration-thickness: 5px;
 }
 .global {
-    width: 207vh;
+    width: 206vh;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.imagen{ 
+  width: 320px;
+  background-size: cover;
+  margin-left: 50px;
+  
+}
+
+@media screen and (max-width: 800px) {
+  .global {
+    width: 95%;
+    padding: 50px 0;
+  }
+  .global h1 {
+    margin-left: 18px;
+  }
+  .imagen {
+    width: 280px;
+  }
 }

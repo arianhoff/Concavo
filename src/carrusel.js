@@ -17,11 +17,11 @@ export default class Autoplay extends Component {
     var settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 1500,
+      speed: 2500,
+      autoplaySpeed: 2000,
       cssEase: "linear",
       responsive: [
         {
@@ -58,25 +58,25 @@ export default class Autoplay extends Component {
         </h1>
         <Slider {...settings}>
           <div>
-          <img style={{ height: 250, backgroundSize: "cover" }} src={Tools} alt="Logo-knx" />
+          <img className="imagen"  src={Tools} alt="Logo-knx" />
           </div>
           <div>
-            <img style={{ height: 250, backgroundSize: "cover" }} src={Knx} alt="Logo-knx" />
+            <img className="imagen"  src={Knx} alt="Logo-knx" />
           </div>
           <div>
-            <img style={{ height: 250, backgroundSize: "cover" }} src={Oro} alt="Logo-knx" />
+            <img className="imagen"  src={Oro} alt="Logo-knx" />
           </div>
           <div>
-            <img style={{ height: 250, backgroundSize: "cover" }} src={Se} alt="Logo-knx" />
+            <img className="imagen"  src={Se} alt="Logo-knx" />
           </div>
           <div>
-            <img style={{ height: 250, backgroundSize: "cover" }} src={Sj} alt="Logo-knx" />
+            <img className="imagen"  src={Sj} alt="Logo-knx" />
           </div>
           <div>
-            <img style={{ height: 250, backgroundSize: "cover" }} src={Tlhf} alt="Logo-knx" />
+            <img className="imagen"  src={Tlhf} alt="Logo-knx" />
           </div>
           <div>
-            <img style={{ height: 250, backgroundSize: "cover" }} src={Born} alt="Logo-knx" />
+            <img className="imagen"  src={Born} alt="Logo-knx" />
           </div>
         </Slider>
       </div>
