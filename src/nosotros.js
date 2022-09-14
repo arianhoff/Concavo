@@ -1,7 +1,7 @@
 import React from 'react'
 import Concavo from "./assets/concavonosotros.jpg"
 import "../src/nosotros.css"
-import Plan from "./assets/PlanDePrecios.pdf"
+import Plan from "./assets/planesconcavo.pdf"
 
 const nosotros = () => {
   return (
@@ -16,7 +16,13 @@ const nosotros = () => {
         <p>
           
         </p>
-        <p>Lorem ipsum dolor, sit amet consectetur.</p>
+        <p>Somos dos amigos con una trayectoria de 6 años entre trabajos y estudios. Hoy decidimos emprender de la mano del <b>DISEÑO</b> haciendo lo que amamos.<br/>
+        <br/>
+          ¿Cuál es nuestro trabajo en <b>CÓNCAVO</b>?<br/>
+          Ayudar a las personas a encontrar la estética de su emprendimiento / empresa maximizando la exposición en las redes sociales, otorgando todas las herramientas que tenemos a nuestro alcance para lograrlo.<br/>
+          <br/>
+          ¿Qué planes ofrecemos?<br/>
+          Aquí puedes descargar los planes vigentes de <b>CÓNCAVO</b>, y además, comunicarte con nosotros para cotizarlo de manera personalizada.</p>
         <a href={Plan} download>Descarga nuestros planes</a>
       </div>
     </div>

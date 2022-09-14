@@ -9,6 +9,7 @@ import Se from "../src/assets/Se.jpg";
 import Sj from "../src/assets/sj.jpg";
 import Knx from "../src/assets/knx.jpg";
 import Born from "../src/assets/Born.jpg";
+import Doncelestino from "../src/assets/doncelestino.jpg";
 import "./carrusel.css";
 
 
@@ -68,6 +69,9 @@ export default class Autoplay extends Component {
           </div>
           <div>
             <img className="imagen"  src={Se} alt="Logo-knx" />
+          </div>
+          <div>
+            <img className="imagen"  src={Doncelestino} alt="Logo-knx" />
           </div>
           <div>
             <img className="imagen"  src={Sj} alt="Logo-knx" />
